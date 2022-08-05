@@ -1,5 +1,7 @@
 /*uneversal stylig*/
 
+/*uneversal stylig*/
+
 *{
     box-sizing: border-box;
 }
@@ -54,51 +56,50 @@ body{
     display: inline-block;
 }
 
-/* navegation section*/
+/* navegation section redo to have semi flat buttons more accesable on mobile device*/
 
-.navbar{
+
+
+
+ .navbar a{
+    text-decoration: none;
+    color: hsla(134, 100%, 50%, 0.5  );
+    background-color: hsla(134, 6%, 50%, 0.5  );
+    border: 2px solid hsla(134, 100%, 50%, 0.5  );
+    border-radius: 5px;
+    box-shadow: 0 4px hsla(134, 100%, 50%, 0.63  );
+    padding: 5px 10px;
+    margin-left: 20px;
     font-weight: bold;
 }
 
+/* creats responsive links buttons
 
-.navbar a{
-    text-decoration: none;
-    color: hsla(134, 100%, 50%, 0.5  );
-}
-
-/* creats responsive links buttons*/
+*/
 
 .navbar a:hover{
-    filter:blur(0);
-    order: 0.01px solid hsla(134, 100%, 50%, 0.5  );
-    border-radius: 50%;
-    box-shadow: 0px 0px 20px hsla(134, 100%, 50%, 0.5  );
-    background-color: hsla(134, 100%, 25%, 0.5  );
+    font-weight: 400;
+
 }
 
 
-.navbar a:active{
-    color: hsla(134, 100%, 75%, 0.5  );
-    box-shadow: 0px 0px 10px hsla(134, 100%, 50%, 0.5  );
+ .navbar a:active{
+    position:relative;
+    top: 4px;
+    box-shadow: 0 0px;
+
 }
 
-.navbar ul{ 
-    position: relative ;
-    margin: 10 auto ;
-}
 
 .navbar li{
     display: inline-block;
-    margin: 0 20px;
-    padding:0 10;
-   
+
 }
 
 /*header duhh */
 /* figure out how to fade image ina and out */
 #header{
-    margin-top: 20px;
-    background-image: url("https://motionarray.imgix.net/preview-57687PKKU45bOO7_0010.jpg?w=660&q=60&fit=max&auto=format");  
+    background-image: url(https://mail.google.com/mail/u/0?ui=2&ik=f24d3378f8&attid=0.1&permmsgid=msg-a:r6539610143430660462&th=1824b0253d634314&view=att&disp=safe&realattid=f_l66qph760) ;
     width: 100%;
     height: 200px;
     color: hsla(134, 100%, 50%, 0.5  );
@@ -150,20 +151,7 @@ footer{
 }
 footer a{
     vertical-align: center;
-     font-weight: bold;
-      text-decoration: none;
-    color: hsla(134, 100%, 50%, 0.5  );
     
 }
-footer a:hover{
-    filter:blur(0);
-    order: 0.01px solid hsla(134, 100%, 50%, 0.5  );
-    border-radius: 50%;
-    box-shadow: 0px 0px 20px hsla(134, 100%, 50%, 0.5  );
-    background-color: hsla(134, 100%, 25%, 0.5  );
-}
 
-footer a:active{
-    color: hsla(134, 100%, 75%, 0.5  );
-    box-shadow: 0px 0px 10px hsla(134, 100%, 50%, 0.5  );
-}
+/* make typer blink*/
