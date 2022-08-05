@@ -58,7 +58,7 @@ body{
 
 /* navegation section redo to have semi flat buttons more accesable on mobile device*/
 
- .navbar a{
+ #navbar a{
     text-decoration: none;
     color: hsla(134, 100%, 50%, 0.5  );
     background-color: hsla(134, 6%, 50%, 0.5  );
@@ -74,19 +74,19 @@ body{
 
 */
 
-.navbar a:hover{
+#navbar a:hover{
     font-weight: 400;
 
 }
 
-.navbar a:active{
+#navbar a:active{
     position:relative;
     top: 4px;
     box-shadow: 0 0px;
 }
 
 
-.navbar li{
+#navbar li{
     display: inline-block;
     margin: 25px auto;
 }
