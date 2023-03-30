@@ -43,7 +43,7 @@ button[type="submit"] {
  #navbar a{
     text-decoration: none;
     color: hsla(208, 100%, 50%, 0.859  );
-    background-color: hsla(208, 100%, 50%, 0.859  );
+    background-color: hsla(0, 0%, 99%, 0.859  );
     border: 2px solid hsla(208, 100%, 50%, 0.859  );
     border-radius: 5px;
     box-shadow: 0 4px hsla(208, 100%, 50%, 0.949  );
