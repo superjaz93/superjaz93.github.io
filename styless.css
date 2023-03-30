@@ -34,6 +34,11 @@ button[type="submit"] {
 
 
 /* navegation section redo to have semi flat buttons more accesable on mobile device*/
+.navcontainer{
+    width:fit-content;
+    margin: auto;
+}
+
 
  #navbar a{
     text-decoration: none;
