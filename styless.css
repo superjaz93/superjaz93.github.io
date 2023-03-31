@@ -2,9 +2,33 @@
 
 body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    background-color: #f8f9fa;
+    background-color:  hsla(57, 76%, 95%, 0.253);
 }
 
+.logo a{
+    text-decoration: none;
+    color: hsla(128, 85%, 23%, 0.859);
+    background-color: hsla(0, 0%, 0%, 0.0);
+    border: 2px solid hsla(128, 85%, 23%, 0.859  );
+    border-radius: 5px;
+    box-shadow: 0 4px hsla(128, 85%, 23%, 0.859  );
+    padding: 5px 10px;
+    
+    margin-left: 10px;
+    font-weight: bold;
+}
+
+/* creats responsive links buttons*/
+
+.logo a:hover{
+    font-weight: 400;
+}
+
+.logo a:active{
+    position:relative;
+    top: 4px;
+    box-shadow: 0 0px;
+}
 /* styles.css */
 .multi-step-form fieldset {
     display: none;
@@ -42,11 +66,11 @@ button[type="submit"] {
 
  #navbar a{
     text-decoration: none;
-    color: hsla(208, 100%, 50%, 0.859  );
-    background-color: hsla(0, 0%, 99%, 0.859  );
-    border: 2px solid hsla(208, 100%, 50%, 0.859  );
+    color: hsla(128, 85%, 23%, 0.859);
+    background-color: hsla(0, 0%, 0%, 0.0);
+    border: 2px solid hsla(128, 85%, 23%, 0.859  );
     border-radius: 5px;
-    box-shadow: 0 4px hsla(208, 100%, 50%, 0.949  );
+    box-shadow: 0 4px hsla(128, 85%, 23%, 0.859  );
     padding: 5px 10px;
     
     margin-left: 10px;
@@ -75,10 +99,7 @@ button[type="submit"] {
 
 /* updated below  */
 
-body {
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    background-color: #f8f9fa;
-}
+
 
 .container {
     max-width: 800px;
